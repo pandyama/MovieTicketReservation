@@ -10,8 +10,8 @@ public class DBController {
     private static Connection myConnection;
     private Statement statement;
     private static String connectInfo = "jdbc:mysql://localhost:3306/ticketreservation";
-    private static String login = "root";
-    private static String password = "rootmp9089";
+    private static String login = "";
+    private static String password = "";
 
     public Connection getMyConnection() {
         return myConnection;
